@@ -364,18 +364,28 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# Demo Flow
+# Deliverables Mapping
 
-A recommended demo sequence:
+This submission includes:
 
-1. Upload documents using `/documents/extract`
-2. Show extracted patient and insurance data
-3. Call `/eligibility/verify`
-4. Show raw 271 response
-5. Show parsed JSON summary
-6. Demonstrate `/workflow/eligibility-check` for the full pipeline
+1. **Working prototype**
+   - FastAPI service with document extraction, eligibility verification, 271 parsing, and end-to-end workflow endpoint
 
----
+2. **Source code**
+   - Full project source included in this repository
+
+3. **README**
+   - Architecture explanation
+   - Design decisions
+   - Trade-offs
+   - Known limitations
+   - Suggested production next steps
+
+4. **Short demo**
+   - A separate 5–10 minute demo walkthrough is provided with the submission
+
+5. **Suggested next steps if this were production**
+   - Included in the “Potential Production Improvements” section above
 
 # Summary
 
